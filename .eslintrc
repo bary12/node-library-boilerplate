@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": false,
+    "codeFrame": false
+  },
+  "extends":  ["eslint:recommended", "google"],
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "arrow-parens": ["error", "as-needed"],
+    "arrow-body-style": ["error", "as-needed"],
+    "indent": ["error", 2]
+  }
+}
